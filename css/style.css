@@ -40,8 +40,6 @@
   --silver-click: #d5d5d5;
 
   --card-hat: #4d4d4d;
-
-  --white: #ffffff;
   --black: #000000;
 }
 
@@ -222,7 +220,7 @@ input[type="number"]:focus {
 .slider-button {
   display: flex;
   font-family: "roboto";
-  color: var(--white);
+  color: #ffffff;
   font-size: 16px;
   line-height: 18px;
   text-decoration: none;
@@ -310,7 +308,7 @@ input[type="number"]:focus {
   font-family: "roboto medium";
   font-size: 16px;
   line-height: 18px;
-  color: var(--white);
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 3px;
@@ -583,9 +581,8 @@ input[type="number"]:focus {
   min-height: 308px;
   position: absolute;
   top: 56px;
-  /* left: 147px; */
-  left: 216px;
-  background: var(--white);
+  left: 147px;
+  background: #ffffff;
 }
 
 .contact-us-title {
@@ -621,7 +618,7 @@ input[type="number"]:focus {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
-  color: var(--white);
+  color: #ffffff;
   text-decoration: none;
   background: var(--red-peace);
   display: flex;
@@ -656,7 +653,7 @@ input[type="number"]:focus {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: var(--white);
+  background-color: #ffffff;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
   padding: 63px 100px 84px 100px;
 }
@@ -780,7 +777,7 @@ input[type="number"]:focus {
 .form-btn {
   display: flex;
   font-family: "roboto";
-  color: var(--white);
+  color: #ffffff;
   font-size: 16px;
   line-height: 18px;
   text-decoration: none;
@@ -788,7 +785,7 @@ input[type="number"]:focus {
   text-transform: uppercase;
   border-radius: 3px;
   width: fit-content;
-  width: -moz-fit-content;  
+  width: -moz-fit-content;
   min-width: 260px;
   min-height: 50px;
   align-items: center;
@@ -816,7 +813,7 @@ input[type="number"]:focus {
 .main-footer {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 44px;
   margin-left: 149px;
   margin-bottom: 68px;
 }
@@ -874,13 +871,9 @@ input[type="number"]:focus {
   opacity: 0.3;
 }
 
-.footer-item--first {
+.footer-item:first-child {
   margin: 0;
 }
-
-/* .footer-item:first-child {
-  margin: 0;
-} */
 
 /* CATALOG.HTML */
 
@@ -953,7 +946,7 @@ input[type="number"]:focus {
   width: 4px;
   height: 4px;
   padding: 0;
-  border: 8px solid var(--white);
+  border: 8px solid #ffffff;
   background-color: #ababab;
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 #cfcfcf;
@@ -1274,7 +1267,7 @@ input[type="number"]:focus {
 .product-hat {
   box-sizing: border-box;
   background-position: left 14px top 13px;
-  padding-top: 12px;
+  padding-top: 13px;
   width: 356px;
   height: 40px;
   background-color: var(--card-hat);
@@ -1373,7 +1366,7 @@ input[type="number"]:focus {
   text-align: center;
   justify-content: center;
   border: none;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .btn-red-product:hover {
@@ -1413,7 +1406,7 @@ input[type="number"]:focus {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
-  color: var(--white);
+  color: #ffffff;
   text-decoration: none;
   background: var(--red-peace);
   border-radius: 3px;
@@ -1441,7 +1434,7 @@ input[type="number"]:focus {
   justify-content: center;
   margin-top: 32px;
   cursor: pointer;
-  background-color: var(--white);
+  background-color: #ffffff;
   border: 3px solid #dbdbdb;
   box-sizing: border-box;
   border-radius: 3px;
