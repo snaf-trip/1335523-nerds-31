@@ -40,6 +40,16 @@
   --silver-click: #d5d5d5;
 
   --card-hat: #4d4d4d;
+  --text-color: #283136;
+  --text-silver: #666666;
+  --prise-controls: #f1f1f1;
+  --range-silver: #d7dcde;
+  --range-background: #ababab;
+  --range-shadow: #cfcfcf;
+  --product-item: #f2f2f2;
+  --pages-item: #dbdbdb;
+  --footer-description: #444444;
+  --white: #ffffff;
   --black: #000000;
 }
 
@@ -89,9 +99,6 @@ input[type="number"]:focus {
 
 .main-navigation {
   display: flex;
-  /* text-align: center;
-  align-items: center;
-  justify-content: space-around; */
   margin: 0 auto;
 }
 
@@ -182,12 +189,30 @@ input[type="number"]:focus {
 /* SLIDER */
 
 .slider {
-  background-color: #eeeeee;
+  background-color: var(--silver-peace);
 }
 
 .slide-content {
   display: flex;
-  margin-bottom: 70px;
+  margin-bottom: 74px;
+}
+
+.slide-right-content--slide1 {
+  background-image: url(../img/slide1.png);
+  height: 431px;
+  width: 760px;
+}
+
+.slide-right-content--slide2 {
+  background-image: url(../img/slide2.png);
+  height: 431px;
+  width: 760px;
+}
+
+.slide-right-content--slide3 {
+  background-image: url(../img/slide3.png);
+  height: 431px;
+  width: 760px;
 }
 
 .slide-left-content {
@@ -206,6 +231,9 @@ input[type="number"]:focus {
   line-height: 55px;
   margin: 0 0 29px 0;
   color: var(--black);
+
+  position: absolute;
+  z-index: 1000;
 }
 
 .slide-description {
@@ -214,13 +242,17 @@ input[type="number"]:focus {
   line-height: 24px;
   margin: 0 0 40px 0;
   color: var(--black);
-  max-width: 400px;
+  /* max-width: 400px; */
+
+  margin-top: 136px;
+  position: absolute;
+  z-index: 1000;
 }
 
 .slider-button {
   display: flex;
   font-family: "roboto";
-  color: #ffffff;
+  color: var(--white);
   font-size: 16px;
   line-height: 18px;
   text-decoration: none;
@@ -234,6 +266,8 @@ input[type="number"]:focus {
   align-items: center;
   text-align: center;
   justify-content: center;
+
+  margin-top: 224px;
 }
 
 .slider-button:hover {
@@ -299,7 +333,7 @@ input[type="number"]:focus {
   font-family: "roboto";
   font-size: 16px;
   line-height: 24px;
-  color: #283136;
+  color: var(--text-color);
   margin: 0 0 32px 0;
 }
 
@@ -308,7 +342,7 @@ input[type="number"]:focus {
   font-family: "roboto medium";
   font-size: 16px;
   line-height: 18px;
-  color: #ffffff;
+  color: var(--white);
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 3px;
@@ -364,21 +398,18 @@ input[type="number"]:focus {
   display: grid;
   grid-template-columns: 651px 360px;
   column-gap: 154px;
-  margin-bottom: 63px;
+  margin-top: 39px;
+  margin-bottom: 64px;
 }
 
 .big-line {
   width: 1158px;
   height: 2px;
   margin: 0 auto;
-  background: #eeeeee;
+  background: var(--silver-peace);
 }
 
 /* ABOUT US */
-
-.about-and-stat {
-  margin-top: 39px;
-}
 
 .about-us {
   min-width: 651px;
@@ -391,14 +422,14 @@ input[type="number"]:focus {
   font-weight: 500;
   line-height: 45px;
   color: var(--black);
-  margin: 35px 0 36px 0;
+  margin: 35px 0 33px 0;
 }
 
 .about-us-small-description {
   font-family: "roboto";
   font-size: 16px;
   line-height: 24px;
-  color: #283136;
+  color: var(--text-color);
   margin: 0 0 42px 0;
 }
 
@@ -408,7 +439,7 @@ input[type="number"]:focus {
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
-  color: #283136;
+  color: var(--text-color);
   margin: 0 0 22px 0;
 }
 
@@ -427,7 +458,7 @@ input[type="number"]:focus {
   font-family: "roboto";
   font-size: 16px;
   line-height: 24px;
-  color: #283136;
+  color: var(--text-color);
   margin: 0 0 24px 0;
   align-content: center;
 }
@@ -484,7 +515,7 @@ input[type="number"]:focus {
   font-family: "roboto";
   font-size: 16px;
   line-height: 18px;
-  color: #283136;
+  color: var(--text-color);
 }
 
 /* CLIENTS */
@@ -582,7 +613,7 @@ input[type="number"]:focus {
   position: absolute;
   top: 56px;
   left: 147px;
-  background: #ffffff;
+  background: var(--white);
 }
 
 .contact-us-title {
@@ -599,7 +630,7 @@ input[type="number"]:focus {
   font-family: "roboto";
   font-size: 16px;
   line-height: 18px;
-  color: #666666;
+  color: var(--text-silver);
   margin: 0 0 18px 0;
 }
 
@@ -607,7 +638,7 @@ input[type="number"]:focus {
   font-family: "roboto";
   font-size: 16px;
   line-height: 18px;
-  color: #666666;
+  color: var(--text-silver);
   text-decoration: none;
   display: block;
   margin: 0 0 37px 0;
@@ -618,7 +649,7 @@ input[type="number"]:focus {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
-  color: #ffffff;
+  color: var(--white);
   text-decoration: none;
   background: var(--red-peace);
   display: flex;
@@ -648,12 +679,12 @@ input[type="number"]:focus {
 /* MODAL */
 
 .modal-form {
-  z-index: 2;
+  z-index: 1001;
   position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: #ffffff;
+  background-color: var(--white);
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
   padding: 63px 100px 84px 100px;
 }
@@ -707,10 +738,23 @@ input[type="number"]:focus {
 }
 
 .form-input {
-  border: 2px solid #d7dcde;
+  border: 2px solid var(--silver-peace);
   box-sizing: border-box;
   border-radius: 3px;
   padding: 16px 0 16px 16px;
+}
+
+.form-input:hover {
+  border-color: var(--silver-hover);
+}
+
+.form-input:focus::placeholder {
+  color: var(--black);
+}
+
+.form-input:invalid {
+  border-color: var(--red-hover);
+  color: var(--red-hover);
 }
 
 .modal_input_top {
@@ -746,38 +790,43 @@ input[type="number"]:focus {
 }
 
 .modal input {
-  border: 2px solid #d7dcde;
+  border: 2px solid var(--silver-peace);
   border-radius: 3px;
   padding-left: 16px;
 }
 
 .modal_textarea {
-  border: 2px solid #d7dcde;
+  border: 2px solid var(--silver-peace);
   border-radius: 3px;
   padding-left: 16px;
   padding-top: 16px;
 }
 
 .modal input:hover {
-  border-color: #b4b9bb;
+  border-color: var(--silver-hover);
 }
 
 .modal input:focus::placeholder {
-  color: #000000;
+  color: var(--black);
 }
 
 .modal_textarea:hover {
-  border-color: #b4b9bb;
+  border-color: var(--silver-hover);
 }
 
 .modal_textarea:focus::placeholder {
-  color: #000000;
+  color: var(--black);
+}
+
+.modal_textarea:invalid {
+  border-color: var(--red-hover);
+  color: var(--red-hover);
 }
 
 .form-btn {
   display: flex;
   font-family: "roboto";
-  color: #ffffff;
+  color: var(--white);
   font-size: 16px;
   line-height: 18px;
   text-decoration: none;
@@ -844,7 +893,7 @@ input[type="number"]:focus {
   font-family: "roboto";
   font-size: 16px;
   line-height: 22px;
-  color: #444444;
+  color: var(--footer-description);
   margin: 9px 0 0 0;
 }
 
@@ -878,11 +927,11 @@ input[type="number"]:focus {
 /* CATALOG.HTML */
 
 .main-header {
-  background-color: #eeeeee;
+  background-color: var(--silver-peace);
 }
 
 .main-title {
-  background-color: #eeeeee;
+  background-color: var(--silver-peace);
   padding-top: 13px;
   padding-bottom: 55px;
   margin-bottom: 60px;
@@ -920,7 +969,7 @@ input[type="number"]:focus {
 .range-controls {
   position: relative;
   height: 41px;
-  background-color: #f1f1f1;
+  background-color: var(--prise-controls);
   padding-top: 39px;
   border-radius: 5px;
   padding-right: 20px;
@@ -930,13 +979,13 @@ input[type="number"]:focus {
 
 .range-controls .scale {
   height: 2px;
-  background: #d7dcde;
+  background: var(--range-silver);
 }
 
 .range-controls .bar {
   width: 70%;
   height: 2px;
-  background: #00ca74;
+  background: var(--green-peace);
 }
 
 .range-controls .toggle {
@@ -946,10 +995,10 @@ input[type="number"]:focus {
   width: 4px;
   height: 4px;
   padding: 0;
-  border: 8px solid #ffffff;
-  background-color: #ababab;
+  border: 8px solid var(--white);
+  background-color: var(--range-background);
   border-radius: 50%;
-  box-shadow: 0 2px 1px 0 #cfcfcf;
+  box-shadow: 0 2px 1px 0 var(--range-shadow);
   cursor: pointer;
 }
 
@@ -977,10 +1026,10 @@ input[type="number"]:focus {
   padding: 10px;
   margin-left: 10px;
   text-align: center;
-  color: #283136;
+  color: var(--text-color);
   border: none;
   border-radius: 5px;
-  background: #f1f1f1;
+  background: var(--prise-controls);
   font-family: inherit;
   font-size: inherit;
 }
@@ -1230,7 +1279,7 @@ input[type="number"]:focus {
 
 .product-item {
   position: relative;
-  background-color: #f2f2f2;
+  background-color: var(--product-item);
   box-sizing: border-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -1327,7 +1376,7 @@ input[type="number"]:focus {
 .product-item-show p {
   font-size: 16px;
   line-height: 18px;
-  color: #666666;
+  color: var(--text-silver);
 }
 
 .product-item-show button {
@@ -1366,7 +1415,7 @@ input[type="number"]:focus {
   text-align: center;
   justify-content: center;
   border: none;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .btn-red-product:hover {
@@ -1398,7 +1447,7 @@ input[type="number"]:focus {
   font-family: "roboto";
   font-size: 16px;
   line-height: 18px;
-  color: #666666;
+  color: var(--text-silver);
 }
 
 .card-button {
@@ -1406,7 +1455,7 @@ input[type="number"]:focus {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
-  color: #ffffff;
+  color: var(--white);
   text-decoration: none;
   background: var(--red-peace);
   border-radius: 3px;
@@ -1434,8 +1483,8 @@ input[type="number"]:focus {
   justify-content: center;
   margin-top: 32px;
   cursor: pointer;
-  background-color: #ffffff;
-  border: 3px solid #dbdbdb;
+  background-color: var(--white);
+  border: 3px solid var(--pages-item);
   box-sizing: border-box;
   border-radius: 3px;
 }
@@ -1467,7 +1516,7 @@ input[type="number"]:focus {
 
 .pages-item:active a {
   background-color: var(--silver-click);
-  color: #000000;
+  color: var(--black);
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
   mix-blend-mode: normal;
 }
@@ -1512,7 +1561,7 @@ input[type="number"]:focus {
 
 .pages-item:last-child:active a {
   background-color: var(--silver-click);
-  color: #000000;
+  color: var(--black);
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
   mix-blend-mode: normal;
 }
