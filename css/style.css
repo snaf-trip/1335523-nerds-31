@@ -66,13 +66,14 @@ body {
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
+  appearance: none;
 }
 
 input[type="number"],
 input[type="number"]:hover,
 input[type="number"]:focus {
-  appearance: none;
   -moz-appearance: textfield;
+  appearance: none;
 }
 
 .page {
@@ -105,17 +106,16 @@ input[type="number"]:focus {
 .main-header-logo {
   display: block;
   margin-right: 200px;
-  background-image: url(../img/header-logo.svg);
   width: 160px;
   height: 66px;
 }
 
 .main-header-logo:hover {
-  background-image: url(../img/header-logo-hover.svg);
+  background-image: url("../img/header-logo-hover.svg");
 }
 
 .main-header-logo:active {
-  background-image: url(../img/header-logo-active.svg);
+  background-image: url("../img/header-logo-active.svg");
 }
 
 .site-navigation-list {
@@ -133,7 +133,7 @@ input[type="number"]:focus {
 
 .site-navigation-item a {
   list-style: none;
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   color: var(--black);
   line-height: 30px;
   font-size: 16px;
@@ -164,7 +164,7 @@ input[type="number"]:focus {
 }
 
 .cart-link {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   color: var(--black);
   line-height: 30px;
   font-size: 16px;
@@ -198,26 +198,26 @@ input[type="number"]:focus {
 }
 
 .slide-right-content--slide1 {
-  background-image: url(../img/slide1.png);
+  background-image: url("../img/slide1.png");
   height: 431px;
   width: 760px;
 }
 
 .slide-right-content--slide2 {
-  background-image: url(../img/slide2.png);
+  background-image: url("../img/slide2.png");
   height: 431px;
   width: 760px;
 }
 
 .slide-right-content--slide3 {
-  background-image: url(../img/slide3.png);
+  background-image: url("../img/slide3.png");
   height: 431px;
   width: 760px;
 }
 
 .slide-left-content {
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 400px;
   max-width: 400px;
   min-height: 50px;
@@ -225,7 +225,7 @@ input[type="number"]:focus {
 }
 
 .slide-title {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   font-size: 55px;
   font-weight: 500;
   line-height: 55px;
@@ -237,7 +237,7 @@ input[type="number"]:focus {
 }
 
 .slide-description {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   margin: 0 0 40px 0;
@@ -251,7 +251,7 @@ input[type="number"]:focus {
 
 .slider-button {
   display: flex;
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   color: var(--white);
   font-size: 16px;
   line-height: 18px;
@@ -259,8 +259,8 @@ input[type="number"]:focus {
   background: var(--red-peace);
   text-transform: uppercase;
   border-radius: 3px;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 240px;
   min-height: 50px;
   align-items: center;
@@ -282,8 +282,8 @@ input[type="number"]:focus {
 .slide-checkboxs {
   display: flex;
   position: absolute;
-  top: 434px;
-  left: 687px;
+  top: 430px;
+  margin-left: 536px;
 }
 
 .slider-radio-btn {
@@ -320,7 +320,7 @@ input[type="number"]:focus {
 }
 
 .services-item-title {
-  font-family: "roboto bold";
+  font-family: "roboto bold", Arial, sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: bold;
@@ -330,7 +330,7 @@ input[type="number"]:focus {
 }
 
 .services-item-description {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: var(--text-color);
@@ -339,15 +339,15 @@ input[type="number"]:focus {
 
 .services-item-button {
   display: flex;
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: var(--white);
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 3px;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 160px;
   min-height: 50px;
   align-items: center;
@@ -417,7 +417,7 @@ input[type="number"]:focus {
 }
 
 .about-us-big-description {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
@@ -426,7 +426,7 @@ input[type="number"]:focus {
 }
 
 .about-us-small-description {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: var(--text-color);
@@ -434,7 +434,7 @@ input[type="number"]:focus {
 }
 
 .about-us-list-title {
-  font-family: "roboto bold";
+  font-family: "roboto bold", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 24px;
@@ -444,7 +444,6 @@ input[type="number"]:focus {
 }
 
 .about-us-list {
-  /* list-style-image: url("../img/for-list-item.svg"); */
   list-style: none;
   padding: 0;
 }
@@ -455,7 +454,7 @@ input[type="number"]:focus {
 }
 
 .about-us-item {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: var(--text-color);
@@ -472,7 +471,7 @@ input[type="number"]:focus {
 }
 
 .our-statistics-title-list {
-  font-family: "roboto bold";
+  font-family: "roboto bold", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 24px;
@@ -494,7 +493,7 @@ input[type="number"]:focus {
 }
 
 .our-statistics-number {
-  font-family: "roboto bold";
+  font-family: "roboto bold", Arial, sans-serif;
   font-size: 45px;
   line-height: 64px;
   font-weight: bold;
@@ -504,7 +503,7 @@ input[type="number"]:focus {
 }
 
 .percent {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 40px;
@@ -512,7 +511,7 @@ input[type="number"]:focus {
 }
 
 .our-statistics-num-descriptrion {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: var(--text-color);
@@ -523,10 +522,8 @@ input[type="number"]:focus {
 .clients-list {
   list-style: none;
   display: grid;
-  /* justify-content: space-evenly; */
   padding: 0;
   grid-template-columns: 199px 128px 209px 108px 185px 120px 173px;
-  /* grid-column-gap: 95px; */
   margin: 46px 0 44px 0;
 }
 
@@ -597,8 +594,8 @@ input[type="number"]:focus {
 .contact-us-list {
   list-style: none;
   padding: 0;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 220px;
   margin: 0px auto auto auto;
 }
@@ -606,18 +603,17 @@ input[type="number"]:focus {
 .contact-us {
   padding-top: 40px;
   box-sizing: border-box;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 320px;
   min-height: 308px;
   position: absolute;
   top: 56px;
-  left: 147px;
   background: var(--white);
 }
 
 .contact-us-title {
-  font-family: "roboto bold";
+  font-family: "roboto bold", Arial, sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
@@ -627,7 +623,7 @@ input[type="number"]:focus {
 }
 
 .contact-us-location {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: var(--text-silver);
@@ -635,7 +631,7 @@ input[type="number"]:focus {
 }
 
 .telephone-number {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: var(--text-silver);
@@ -645,7 +641,7 @@ input[type="number"]:focus {
 }
 
 .contact-us-button {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
@@ -654,8 +650,8 @@ input[type="number"]:focus {
   background: var(--red-peace);
   display: flex;
   border-radius: 3px;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 220px;
   min-height: 50px;
   align-items: center;
@@ -701,7 +697,7 @@ input[type="number"]:focus {
 
 .modal-title {
   margin: 0;
-  font-family: "roboto bold";
+  font-family: "roboto bold", Arial, sans-serif;
   font-size: 45px;
   line-height: 53px;
   margin-right: 423px;
@@ -709,7 +705,7 @@ input[type="number"]:focus {
 
 .closed-modal {
   display: block;
-  background-image: url(../img/close-modal.svg);
+  background-image: url("../img/close-modal.svg");
   width: 21px;
   height: 21px;
   opacity: 0.3;
@@ -732,7 +728,7 @@ input[type="number"]:focus {
 }
 
 .label-form {
-  font-family: "roboto bold";
+  font-family: "roboto bold", Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
 }
@@ -825,7 +821,7 @@ input[type="number"]:focus {
 
 .form-btn {
   display: flex;
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   color: var(--white);
   font-size: 16px;
   line-height: 18px;
@@ -833,8 +829,8 @@ input[type="number"]:focus {
   background: var(--red-peace);
   text-transform: uppercase;
   border-radius: 3px;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 260px;
   min-height: 50px;
   align-items: center;
@@ -859,16 +855,23 @@ input[type="number"]:focus {
 
 /* FOOTER */
 
-.main-footer {
+.footer-container {
   display: flex;
   align-items: center;
-  margin-top: 44px;
-  margin-left: 149px;
-  margin-bottom: 68px;
+  width: 1160px;
+}
+
+.main-footer {
+  display: flex;
+  width: 1160px;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 44px;
+  padding-bottom: 68px;
 }
 
 .main-footer--catalog {
-  margin-top: 56px;
+  margin-top: 15px;
 }
 
 .footer-list {
@@ -879,10 +882,13 @@ input[type="number"]:focus {
 
 .footer-text {
   margin-left: 140px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: auto;
 }
 
 .footer-title {
-  font-family: "roboto bold";
+  font-family: "roboto bold", Arial, sans-serif;
   font-size: 36px;
   line-height: 36px;
   color: var(--black);
@@ -890,7 +896,7 @@ input[type="number"]:focus {
 }
 
 .footer-description {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: var(--footer-description);
@@ -938,7 +944,7 @@ input[type="number"]:focus {
 }
 
 .main-title-text {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   font-size: 55px;
   line-height: 55px;
   color: var(--black);
@@ -957,6 +963,7 @@ input[type="number"]:focus {
 .range-filter {
   width: 260px;
   margin-top: 49px;
+  margin-bottom: 26px;
 }
 
 .filter-item legend {
@@ -1035,7 +1042,7 @@ input[type="number"]:focus {
 }
 
 .filters-button {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
@@ -1044,8 +1051,8 @@ input[type="number"]:focus {
   background: var(--silver-peace);
   display: flex;
   border-radius: 3px;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 260px;
   min-height: 50px;
   align-items: center;
@@ -1056,6 +1063,166 @@ input[type="number"]:focus {
 }
 
 /* MAIN FILTERS */
+
+.filters {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.filter fieldset {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 39px;
+  border: none;
+}
+
+.filter fieldset:first-child {
+  margin-bottom: 35px;
+}
+
+.filter legend {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.filter ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  line-height: 18px;
+}
+
+.filter-option {
+  margin-bottom: 19px;
+  padding-left: 40px;
+}
+
+.filter-option label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.filter-input-checkbox:hover + label,
+.filter-input-checkbox:focus + label {
+  color: var(--special);
+}
+
+.filter-input-radio + label::before {
+  content: "";
+  background-image: url(../img/radio-off.svg);
+  opacity: 0.4;
+  position: absolute;
+  left: -42px;
+  top: -1px;
+  width: 25px;
+  height: 25px;
+}
+
+.filter-input-radio:hover + label::before {
+  opacity: 1;
+}
+
+/* .filter-input-radio:disabled:hover + label::before {
+  opacity: 0;
+} */
+
+.filter-input-radio:checked + label::before {
+  opacity: 0;
+}
+
+.filter-input-radio:checked + label::after {
+  content: "";
+  background-image: url(../img/radio-on.svg);
+  position: absolute;
+  left: -42px;
+  top: -1px;
+  width: 25px;
+  height: 25px;
+  opacity: 0.4;
+}
+
+.filter-input-radio:hover + label::after {
+  opacity: 1;
+}
+
+.filter-input-radio:disabled + label {
+  opacity: 0.1;
+}
+
+.filter-input-radio:disabled:hover + label {
+  opacity: 0.1;
+}
+
+.filter-input-radio:disabled:hover + label::before {
+  opacity: 0.4;
+}
+
+.filter-input-checkbox + label::before {
+  content: "";
+  background-image: url(../img/checkbox-off.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -42px;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  opacity: 0.4;
+}
+
+.filter-input-checkbox:checked + label::after {
+  content: "";
+  background-image: url(../img/checkbox-on.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -42px;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  opacity: 0.4;
+}
+
+.filter-input-checkbox:checked:hover + label::after {
+  opacity: 1;
+}
+
+.filter-input-checkbox:hover + label::before {
+  opacity: 1;
+}
+
+.filter-input-checkbox:checked + label::before {
+  background-image: none;
+}
+
+.filter-input-checkbox:disabled + label {
+  opacity: 0.1;
+}
+
+.filter-input-checkbox:disabled:hover + label {
+  opacity: 0.1;
+}
+
+.filter-input-checkbox:disabled:hover + label::before {
+  opacity: 0.4;
+}
+
+.filter-input-checkbox:disabled:hover + label {
+  opacity: 0.1;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .filters {
   margin-right: 140px;
@@ -1073,91 +1240,8 @@ input[type="number"]:focus {
   font-weight: 700;
 }
 
-.option {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  opacity: 0.4;
-}
-
-.check {
-  padding-left: 36px;
-  user-select: none;
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: var(--basic-black);
-}
-
-.check-input {
-  position: absolute;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.check-box {
-  position: absolute;
-  margin-left: -38px;
-  width: 25px;
-  height: 23px;
-  background-image: url(../img/checkbox-off.svg);
-  background-repeat: no-repeat;
-}
-
-.check-input:checked + .check-box {
-  background-image: url(../img/checkbox-on.svg);
-  background-repeat: no-repeat;
-}
-
-.check-input:checked:disabled + .check-box {
-  background-image: url(../img/checkbox-dis-check.svg);
-  background-repeat: no-repeat;
-}
-
-.check-input:disabled + .check-box {
-  background-image: url(../img/checkbox-dis.svg);
-  background-repeat: no-repeat;
-}
-
-.radio-input {
-  position: absolute;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-.radio-box {
-  position: absolute;
-  margin-left: -38px;
-  width: 25px;
-  height: 25px;
-  background-image: url(../img/radio-off.svg);
-  background-repeat: no-repeat;
-}
-
-.radio-input:checked + .radio-box {
-  background-image: url(../img/radio-on.svg);
-  background-repeat: no-repeat;
-}
-
-.radio-input:checked:disabled + .radio-box {
-  background-image: url(../img/radio-dis-checksvg.svg);
-  background-repeat: no-repeat;
-}
-
-.radio-input:disabled + .radio-box {
-  background-image: url(../img/radio-dis.svg);
-  background-repeat: no-repeat;
-}
-
-.option:hover {
-  opacity: 1;
-}
-
 .button-show {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
@@ -1165,8 +1249,8 @@ input[type="number"]:focus {
   background: var(--silver-peace);
   display: flex;
   border-radius: 3px;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 260px;
   min-height: 50px;
   align-items: center;
@@ -1195,7 +1279,7 @@ input[type="number"]:focus {
 }
 
 .sorting-title {
-  font-family: "roboto bold";
+  font-family: "roboto bold", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 25px;
@@ -1211,7 +1295,7 @@ input[type="number"]:focus {
 }
 
 .sorting-item {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
@@ -1245,7 +1329,7 @@ input[type="number"]:focus {
 }
 
 .sorting-item-active {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
@@ -1320,7 +1404,7 @@ input[type="number"]:focus {
   width: 356px;
   height: 40px;
   background-color: var(--card-hat);
-  background-image: url(../img/card-hat.svg);
+  background-image: url("../img/card-hat.svg");
   background-repeat: no-repeat;
   opacity: 0.1;
   border-top-left-radius: 5px;
@@ -1387,7 +1471,7 @@ input[type="number"]:focus {
 }
 
 .rub::after {
-  content: url(../img/rub.svg);
+  content: url("../img/rub.svg");
   margin-left: 5px;
   width: 15px;
   height: 18px;
@@ -1399,7 +1483,7 @@ input[type="number"]:focus {
 
 .btn-red-product {
   margin-top: 32px;
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
@@ -1407,8 +1491,8 @@ input[type="number"]:focus {
   background-color: var(--red-peace);
   display: flex;
   border-radius: 3px;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 160px;
   min-height: 50px;
   align-items: center;
@@ -1430,13 +1514,13 @@ input[type="number"]:focus {
   display: block;
   width: 11px;
   height: 13px;
-  background-image: url(../img/rub.svg);
+  background-image: url("../img/rub.svg");
   background-repeat: no-repeat;
   margin-left: 5px;
 }
 
 .card-title {
-  font-family: "roboto bold";
+  font-family: "roboto bold", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
@@ -1444,14 +1528,14 @@ input[type="number"]:focus {
 }
 
 .card-description {
-  font-family: "roboto";
+  font-family: "roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: var(--text-silver);
 }
 
 .card-button {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
@@ -1466,7 +1550,7 @@ input[type="number"]:focus {
 }
 
 .pages-item-active a {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
@@ -1474,8 +1558,8 @@ input[type="number"]:focus {
   text-decoration: none;
   display: flex;
   border-radius: 3px;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 50px;
   min-height: 50px;
   align-items: center;
@@ -1490,7 +1574,7 @@ input[type="number"]:focus {
 }
 
 .pages-item a {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
@@ -1499,8 +1583,8 @@ input[type="number"]:focus {
   background-color: var(--silver-peace);
   display: flex;
   border-radius: 3px;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 50px;
   min-height: 50px;
   align-items: center;
@@ -1527,11 +1611,11 @@ input[type="number"]:focus {
 }
 
 .pages-item a span {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
 }
 
 .pages-item:last-child a {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
@@ -1540,8 +1624,8 @@ input[type="number"]:focus {
   background-color: var(--silver-peace);
   display: flex;
   border-radius: 3px;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   min-width: 260px;
   min-height: 50px;
   align-items: center;
@@ -1552,7 +1636,7 @@ input[type="number"]:focus {
 }
 
 .pages-item:last-child a span {
-  font-family: "roboto medium";
+  font-family: "roboto medium", Arial, sans-serif;
 }
 
 .pages-item:last-child:hover a {
