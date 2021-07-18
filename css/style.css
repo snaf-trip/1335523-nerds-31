@@ -122,7 +122,8 @@ input[type="number"]:focus {
   list-style: none;
   display: flex;
   text-align: center;
-  margin: 26px 200px auto 0;
+  position: absolute;
+  margin: 26px 200px auto 362px;
   padding: 0;
 }
 
@@ -161,6 +162,7 @@ input[type="number"]:focus {
   width: 15px;
   height: 15px;
   margin-right: 26px;
+  margin-left: 5px;
 }
 
 .cart-link {
@@ -172,7 +174,7 @@ input[type="number"]:focus {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  margin: 26px 0 auto 0;
+  margin: 26px 0 auto 680px;
 }
 
 .cart-link:hover {
@@ -194,7 +196,7 @@ input[type="number"]:focus {
 
 .slide-content {
   display: flex;
-  margin-bottom: 74px;
+  margin-bottom: 81px;
 }
 
 .slide-right-content--slide1 {
@@ -221,7 +223,7 @@ input[type="number"]:focus {
   min-width: 400px;
   max-width: 400px;
   min-height: 50px;
-  margin-top: 70px;
+  margin-top: 76px;
 }
 
 .slide-title {
@@ -397,9 +399,9 @@ input[type="number"]:focus {
 .about-and-stat {
   display: grid;
   grid-template-columns: 651px 360px;
-  column-gap: 154px;
+  column-gap: 150px;
   margin-top: 39px;
-  margin-bottom: 64px;
+  margin-bottom: 58px;
 }
 
 .big-line {
@@ -582,8 +584,10 @@ input[type="number"]:focus {
 }
 
 .location {
+  width: 1440px;
+  margin: auto;
   position: relative;
-  margin-top: 80px;
+  margin-top: 84px;
   min-height: 416px;
 }
 
@@ -866,12 +870,12 @@ input[type="number"]:focus {
   width: 1160px;
   margin: 0 auto;
   align-items: center;
-  padding-top: 44px;
+  padding-top: 45px;
   padding-bottom: 68px;
 }
 
 .main-footer--catalog {
-  margin-top: 15px;
+  margin-top: 9px;
 }
 
 .footer-list {
@@ -940,7 +944,7 @@ input[type="number"]:focus {
   background-color: var(--silver-peace);
   padding-top: 13px;
   padding-bottom: 55px;
-  margin-bottom: 60px;
+  margin-bottom: 59px;
 }
 
 .main-title-text {
@@ -950,7 +954,7 @@ input[type="number"]:focus {
   color: var(--black);
   display: flex;
   justify-content: center;
-  margin: 58px 0 52px;
+  margin: 65px 0 52px;
 }
 
 .filter-item {
@@ -1072,12 +1076,12 @@ input[type="number"]:focus {
 .filter fieldset {
   padding: 0;
   margin: 0;
-  margin-bottom: 39px;
+  margin-bottom: 35px;
   border: none;
 }
 
 .filter fieldset:first-child {
-  margin-bottom: 35px;
+  margin-bottom: 33px;
 }
 
 .filter legend {
@@ -1111,7 +1115,7 @@ input[type="number"]:focus {
 
 .filter-input-radio + label::before {
   content: "";
-  background-image: url(../img/radio-off.svg);
+  background-image: url("../img/radio-off.svg");
   opacity: 0.4;
   position: absolute;
   left: -42px;
@@ -1134,7 +1138,7 @@ input[type="number"]:focus {
 
 .filter-input-radio:checked + label::after {
   content: "";
-  background-image: url(../img/radio-on.svg);
+  background-image: url("../img/radio-on.svg");
   position: absolute;
   left: -42px;
   top: -1px;
@@ -1161,7 +1165,7 @@ input[type="number"]:focus {
 
 .filter-input-checkbox + label::before {
   content: "";
-  background-image: url(../img/checkbox-off.svg);
+  background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
   position: absolute;
   left: -42px;
@@ -1173,7 +1177,7 @@ input[type="number"]:focus {
 
 .filter-input-checkbox:checked + label::after {
   content: "";
-  background-image: url(../img/checkbox-on.svg);
+  background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
   position: absolute;
   left: -42px;
@@ -1228,7 +1232,10 @@ input[type="number"]:focus {
   margin-right: 140px;
 }
 
-.text-grid,
+.text-grid {
+  margin-bottom: 22px;
+}
+
 .text-features {
   margin-bottom: 18px;
 }
@@ -1238,6 +1245,15 @@ input[type="number"]:focus {
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.li-advantages-block {
+  margin-bottom: 25px;
+}
+
+.li-gallery {
+  margin-top: 22px;
+  margin-bottom: 23px;
 }
 
 .button-show {
@@ -1285,7 +1301,7 @@ input[type="number"]:focus {
   line-height: 25px;
   color: var(--black);
   margin: 0;
-  margin-right: 270px;
+  margin-right: 267px;
 }
 
 .sorting-list {
@@ -1309,7 +1325,7 @@ input[type="number"]:focus {
 }
 
 .sorting-item:nth-child(1) {
-  margin-right: 20px;
+  margin-right: 26px;
 }
 
 .sorting-item:nth-child(2) {
@@ -1346,8 +1362,9 @@ input[type="number"]:focus {
   display: block;
   width: 11px;
   height: 10px;
-  background-image: url(/img/arrow-down-active.svg);
+  background-image: url("/img/arrow-down-active.svg");
   opacity: 1;
+  margin-right: 15px;
 }
 
 .sorting-arrow-up {
@@ -1355,7 +1372,7 @@ input[type="number"]:focus {
   margin-top: auto;
   width: 11px;
   height: 10px;
-  background-image: url(/img/arrow-up-active.svg);
+  background-image: url("/img/arrow-up-active.svg");
   opacity: 0.2;
 }
 
@@ -1399,7 +1416,7 @@ input[type="number"]:focus {
 
 .product-hat {
   box-sizing: border-box;
-  background-position: left 14px top 13px;
+  background-position: left 15px top 13px;
   padding-top: 13px;
   width: 356px;
   height: 40px;
@@ -1413,12 +1430,12 @@ input[type="number"]:focus {
 
 .product-hat::before {
   content: url("../img/card-hat.svg");
-  margin-left: 36px;
+  margin-left: 40px;
 }
 
 .product-hat::after {
   content: url("../img/card-hat.svg");
-  margin-left: 5px;
+  margin-left: 8px;
 }
 
 .product-item-show {
@@ -1565,7 +1582,7 @@ input[type="number"]:focus {
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 32px;
+  margin-top: 30px;
   cursor: pointer;
   background-color: var(--white);
   border: 3px solid var(--pages-item);
@@ -1590,7 +1607,7 @@ input[type="number"]:focus {
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 32px;
+  margin-top: 30px;
   cursor: pointer;
 }
 
@@ -1631,7 +1648,7 @@ input[type="number"]:focus {
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 32px;
+  margin-top: 30px;
   cursor: pointer;
 }
 
@@ -1662,7 +1679,7 @@ input[type="number"]:focus {
 .sorting {
   display: flex;
   align-items: center;
-  margin-bottom: 45px;
+  margin-bottom: 49px;
 }
 
 .sorting-list {
@@ -1672,6 +1689,7 @@ input[type="number"]:focus {
 .pages-list {
   display: flex;
   padding: 0;
+  margin-bottom: 18px;
 }
 
 .pages-elem {
